@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		72A574EA27B593DC00958AE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A574E927B593DC00958AE7 /* AppDelegate.swift */; };
 		72A574EC27B593DC00958AE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A574EB27B593DC00958AE7 /* SceneDelegate.swift */; };
-		72A574EE27B593DC00958AE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A574ED27B593DC00958AE7 /* ViewController.swift */; };
 		72A574F127B593DC00958AE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A574EF27B593DC00958AE7 /* Main.storyboard */; };
 		72A574F327B593DE00958AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A574F227B593DE00958AE7 /* Assets.xcassets */; };
 		72A574F627B593DE00958AE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A574F427B593DE00958AE7 /* LaunchScreen.storyboard */; };
 		72A5750127B593DE00958AE7 /* iNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5750027B593DE00958AE7 /* iNewsTests.swift */; };
 		72A5750B27B593DE00958AE7 /* iNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5750A27B593DE00958AE7 /* iNewsUITests.swift */; };
 		72A5750D27B593DE00958AE7 /* iNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5750C27B593DE00958AE7 /* iNewsUITestsLaunchTests.swift */; };
+		72A5752427B59A4F00958AE7 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5752327B59A4F00958AE7 /* NewsListTableViewController.swift */; };
+		72A5752527B59A4F00958AE7 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5752327B59A4F00958AE7 /* NewsListTableViewController.swift */; };
+		72A5752627B59A4F00958AE7 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5752327B59A4F00958AE7 /* NewsListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		72A574E627B593DC00958AE7 /* iNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A574E927B593DC00958AE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72A574EB27B593DC00958AE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72A574ED27B593DC00958AE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72A574F027B593DC00958AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72A574F227B593DE00958AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72A574F527B593DE00958AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		72A5750627B593DE00958AE7 /* iNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A5750A27B593DE00958AE7 /* iNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNewsUITests.swift; sourceTree = "<group>"; };
 		72A5750C27B593DE00958AE7 /* iNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72A5752327B59A4F00958AE7 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		72A574E827B593DC00958AE7 /* iNews */ = {
 			isa = PBXGroup;
 			children = (
+				72A5752227B59A2800958AE7 /* Controllers */,
 				72A574E927B593DC00958AE7 /* AppDelegate.swift */,
 				72A574EB27B593DC00958AE7 /* SceneDelegate.swift */,
-				72A574ED27B593DC00958AE7 /* ViewController.swift */,
 				72A574EF27B593DC00958AE7 /* Main.storyboard */,
 				72A574F227B593DE00958AE7 /* Assets.xcassets */,
 				72A574F427B593DE00958AE7 /* LaunchScreen.storyboard */,
@@ -125,6 +127,14 @@
 				72A5750C27B593DE00958AE7 /* iNewsUITestsLaunchTests.swift */,
 			);
 			path = iNewsUITests;
+			sourceTree = "<group>";
+		};
+		72A5752227B59A2800958AE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72A5752327B59A4F00958AE7 /* NewsListTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72A574EE27B593DC00958AE7 /* ViewController.swift in Sources */,
 				72A574EA27B593DC00958AE7 /* AppDelegate.swift in Sources */,
+				72A5752427B59A4F00958AE7 /* NewsListTableViewController.swift in Sources */,
 				72A574EC27B593DC00958AE7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A5752527B59A4F00958AE7 /* NewsListTableViewController.swift in Sources */,
 				72A5750127B593DE00958AE7 /* iNewsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72A5750B27B593DE00958AE7 /* iNewsUITests.swift in Sources */,
+				72A5752627B59A4F00958AE7 /* NewsListTableViewController.swift in Sources */,
 				72A5750D27B593DE00958AE7 /* iNewsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
