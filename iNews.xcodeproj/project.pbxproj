@@ -18,6 +18,9 @@
 		72A5752427B59A4F00958AE7 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5752327B59A4F00958AE7 /* NewsListTableViewController.swift */; };
 		72A5752527B59A4F00958AE7 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5752327B59A4F00958AE7 /* NewsListTableViewController.swift */; };
 		72A5752627B59A4F00958AE7 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5752327B59A4F00958AE7 /* NewsListTableViewController.swift */; };
+		72A5752927B5A29500958AE7 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5752827B5A29500958AE7 /* WebServices.swift */; };
+		72A5752A27B5A29500958AE7 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5752827B5A29500958AE7 /* WebServices.swift */; };
+		72A5752B27B5A29500958AE7 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5752827B5A29500958AE7 /* WebServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,7 @@
 		72A5750A27B593DE00958AE7 /* iNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNewsUITests.swift; sourceTree = "<group>"; };
 		72A5750C27B593DE00958AE7 /* iNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		72A5752327B59A4F00958AE7 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		72A5752827B5A29500958AE7 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		72A574E827B593DC00958AE7 /* iNews */ = {
 			isa = PBXGroup;
 			children = (
+				72A5752727B5A26000958AE7 /* Services */,
 				72A5752227B59A2800958AE7 /* Controllers */,
 				72A574E927B593DC00958AE7 /* AppDelegate.swift */,
 				72A574EB27B593DC00958AE7 /* SceneDelegate.swift */,
@@ -135,6 +140,14 @@
 				72A5752327B59A4F00958AE7 /* NewsListTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72A5752727B5A26000958AE7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				72A5752827B5A29500958AE7 /* WebServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			files = (
 				72A574EA27B593DC00958AE7 /* AppDelegate.swift in Sources */,
 				72A5752427B59A4F00958AE7 /* NewsListTableViewController.swift in Sources */,
+				72A5752927B5A29500958AE7 /* WebServices.swift in Sources */,
 				72A574EC27B593DC00958AE7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +294,7 @@
 			files = (
 				72A5752527B59A4F00958AE7 /* NewsListTableViewController.swift in Sources */,
 				72A5750127B593DE00958AE7 /* iNewsTests.swift in Sources */,
+				72A5752A27B5A29500958AE7 /* WebServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +304,7 @@
 			files = (
 				72A5750B27B593DE00958AE7 /* iNewsUITests.swift in Sources */,
 				72A5752627B59A4F00958AE7 /* NewsListTableViewController.swift in Sources */,
+				72A5752B27B5A29500958AE7 /* WebServices.swift in Sources */,
 				72A5750D27B593DE00958AE7 /* iNewsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
